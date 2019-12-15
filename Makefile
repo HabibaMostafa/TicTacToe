@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -ansi
+CFLAGS = -Wall 
 
 all: gameCLI.o
 	$(CC) gameCLI.o -g -o gameCLI
